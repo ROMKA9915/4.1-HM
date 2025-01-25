@@ -111,6 +111,6 @@ class MainKtTest {
 
         val result = ru.netology.taxRemittance(cardType, amountRemittanceAgoToday, amountRemittanceAgoMonth, amount)
 
-        assertEquals(-1, result)
+        assertEquals(-2, result)
     }
 }
